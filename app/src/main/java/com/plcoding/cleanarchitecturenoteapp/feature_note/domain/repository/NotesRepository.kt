@@ -11,5 +11,5 @@ interface NotesRepository {
 
     suspend fun insertNote(notes: Notes)
 
-    suspend fun deleteNode(notes: Notes)
+    suspend fun deleteNote(notes: Notes)
 }
